@@ -1,0 +1,120 @@
+{
+  "list": {
+    "user": {
+      "name": "Jega",
+      "profile_image": "https://randomuser.me/api/portraits/men/45.jpg",
+      "greeting": "What are you cooking today?"
+    },
+    "filters": {
+      "search_placeholder": "Search recipe",
+      "categories": [
+        { "id": 1, "name": "All", "selected": true },
+        { "id": 2, "name": "Indian", "selected": false },
+        { "id": 3, "name": "Italian", "selected": false },
+        { "id": 4, "name": "Asian", "selected": false },
+        { "id": 5, "name": "Chinese", "selected": false }
+      ]
+    },
+    "recipes": [
+      {
+        "id": 101,
+        "name": "Classic Greek Salad",
+        "rating": 4.5,
+        "time": "15 Mins",
+        "is_bookmarked": false,
+        "image": "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg"
+      },
+      {
+        "id": 102,
+        "name": "Crunchy Nut Coleslaw",
+        "rating": 3.5,
+        "time": "10 Mins",
+        "is_bookmarked": false,
+        "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg"
+      }
+    ],
+    "new_recipes": [
+      {
+        "id": 201,
+        "name": "Steak with tomato sauce",
+        "rating": 5,
+        "author": "James Milner",
+        "time": "20 mins",
+        "image": "https://images.pexels.com/photos/616355/pexels-photo-616355.jpeg",
+        "author_image": "https://randomuser.me/api/portraits/men/32.jpg"
+      },
+      {
+        "id": 202,
+        "name": "Pilaf served with sauce",
+        "rating": 4.5,
+        "author": "Laura Chen",
+        "time": "25 mins",
+        "image": "https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg",
+        "author_image": "https://randomuser.me/api/portraits/women/12.jpg"
+      }
+    ]
+  },
+  "details": {
+    "recipe": {
+      "id": 501,
+      "title": "Spicy chicken burger with French fries",
+      "image": "https://images.pexels.com/photos/1633578/pexels-photo-1633578.jpeg",
+      "rating": 4.6,
+      "reviews": "13k Reviews",
+      "cook_time": "20 min",
+      "is_bookmarked": false
+    },
+    "chef": {
+      "name": "Laura Wilson",
+      "profile_image": "https://randomuser.me/api/portraits/women/65.jpg",
+      "location": "Lagos, Nigeria",
+      "is_following": false
+    },
+    "tabs": [
+      { "name": "Ingredient", "active": true },
+      { "name": "Procedure", "active": false }
+    ],
+    "serving": {
+      "serves": "1 serve",
+      "total_items": 10
+    },
+    "ingredients": [
+      {
+        "id": 1,
+        "name": "Tomatos",
+        "quantity": "500g",
+        "icon": "https://cdn-icons-png.flaticon.com/512/2909/2909808.png"
+      },
+      {
+        "id": 2,
+        "name": "Cabbage",
+        "quantity": "300g",
+        "icon": "https://cdn-icons-png.flaticon.com/512/765/765560.png"
+      },
+      {
+        "id": 3,
+        "name": "Taco",
+        "quantity": "300g",
+        "icon": "https://cdn-icons-png.flaticon.com/512/3075/3075977.png"
+      },
+      {
+        "id": 4,
+        "name": "Slice Bread",
+        "quantity": "300g",
+        "icon": "https://cdn-icons-png.flaticon.com/512/1046/1046873.png"
+      },
+      {
+        "id": 5,
+        "name": "Chicken Breast",
+        "quantity": "400g",
+        "icon": "https://cdn-icons-png.flaticon.com/512/1999/1999075.png"
+      },
+      {
+        "id": 6,
+        "name": "Cheddar Cheese",
+        "quantity": "100g",
+        "icon": "https://cdn-icons-png.flaticon.com/512/590/590836.png"
+      }
+    ]
+  }
+}
